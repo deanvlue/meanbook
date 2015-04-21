@@ -1,6 +1,6 @@
 {
   "name":"MEAN",
-  "version":"0.0".3",
+  "version":"0.0.3",
   "description":"Chapter 3 of the mean Book",
   "dependencies":{
     "express":"~4.8.8"

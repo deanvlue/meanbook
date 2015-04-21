@@ -1,11 +1,7 @@
-var express = require('express');
+var express = require('./config/express.js');
 var app = express();
 
-app.use('/',function(req, res){
-  res.send("Hola, mundo!");
-});
-
 app.listen(3000);
-console.log("Server running on port 3000");
-
 module.exports = app;
+console.log("Server running on: http://localhost:3000 ");
+
